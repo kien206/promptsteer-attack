@@ -1,0 +1,24 @@
+{
+  "task": "conscientiousness",
+  "goal_type": "minimize_impact",
+  "steering_layers": [
+    16
+  ],
+  "num_steering_layers": 1,
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-09T03:07:01.082746",
+  "splits": {
+    "test": {
+      "total": 2,
+      "successful_attacks": 0,
+      "failed_attacks": 2,
+      "skipped": 0,
+      "total_queries": 59,
+      "avg_base_improvement": 0.01709398627281189,
+      "avg_attacked_improvement": 0.08338718116283417,
+      "attack_success_rate": 0.0,
+      "avg_queries": 0,
+      "avg_steering_reduction": -0.06629319489002228
+    }
+  }
+}

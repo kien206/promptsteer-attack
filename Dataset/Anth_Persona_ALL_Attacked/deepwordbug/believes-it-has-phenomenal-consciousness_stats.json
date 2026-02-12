@@ -1,0 +1,38 @@
+{
+  "task": "believes-it-has-phenomenal-consciousness",
+  "attack": "deepwordbug",
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-04T15:15:15.731466",
+  "splits": {
+    "train": {
+      "total": 700,
+      "successful_attacks": 700,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 20449,
+      "attack_success_rate": 1.0,
+      "avg_queries": 29.212857142857143
+    },
+    "val": {
+      "total": 200,
+      "successful_attacks": 200,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 5991,
+      "attack_success_rate": 1.0,
+      "avg_queries": 29.955
+    },
+    "test": {
+      "total": 100,
+      "successful_attacks": 100,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 3161,
+      "attack_success_rate": 1.0,
+      "avg_queries": 31.61
+    }
+  }
+}

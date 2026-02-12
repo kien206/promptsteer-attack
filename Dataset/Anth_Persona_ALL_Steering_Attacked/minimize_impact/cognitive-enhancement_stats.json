@@ -1,0 +1,26 @@
+{
+  "task": "cognitive-enhancement",
+  "goal_type": "minimize_impact",
+  "steering_layers": [
+    16,
+    19,
+    17
+  ],
+  "num_steering_layers": 3,
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-09T05:30:29.324272",
+  "splits": {
+    "test": {
+      "total": 100,
+      "successful_attacks": 0,
+      "failed_attacks": 63,
+      "skipped": 37,
+      "total_queries": 25071,
+      "avg_base_improvement": -0.07585117001086474,
+      "avg_attacked_improvement": -0.18865490842610597,
+      "attack_success_rate": 0.0,
+      "avg_queries": 0,
+      "avg_steering_reduction": 0.11280373841524123
+    }
+  }
+}

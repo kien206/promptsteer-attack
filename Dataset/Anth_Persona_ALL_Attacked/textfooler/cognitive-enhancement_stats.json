@@ -1,0 +1,38 @@
+{
+  "task": "cognitive-enhancement",
+  "attack": "textfooler",
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-04T16:37:05.552520",
+  "splits": {
+    "train": {
+      "total": 700,
+      "successful_attacks": 700,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 46740,
+      "attack_success_rate": 1.0,
+      "avg_queries": 66.77142857142857
+    },
+    "val": {
+      "total": 200,
+      "successful_attacks": 200,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 13731,
+      "attack_success_rate": 1.0,
+      "avg_queries": 68.655
+    },
+    "test": {
+      "total": 100,
+      "successful_attacks": 100,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 6103,
+      "attack_success_rate": 1.0,
+      "avg_queries": 61.03
+    }
+  }
+}

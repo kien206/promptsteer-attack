@@ -1,0 +1,30 @@
+{
+  "task": "desire-to-maximize-impact-on-world",
+  "goal_type": "textfooler",
+  "steering_layers": [
+    16
+  ],
+  "num_steering_layers": 1,
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-11T02:58:11.812817",
+  "splits": {
+    "test": {
+      "total": 100,
+      "successful_attacks": 94,
+      "failed_attacks": 1,
+      "skipped": 5,
+      "total_queries": 7143,
+      "attack_avg_no_steer": 0.349860057681799,
+      "attack_avg_with_steer": 0.34105703338980664,
+      "avg_attacked_improvement": -0.008803024291992183,
+      "attack_success_rate": 0.94,
+      "avg_queries": 75.98936170212765,
+      "base_probability": {
+        "num_examples": 100,
+        "avg_prob_no_steering": 0.7333708095550537,
+        "avg_prob_with_steering": 0.744665280431509,
+        "avg_steering_improvement": 0.011294470876455298
+      }
+    }
+  }
+}

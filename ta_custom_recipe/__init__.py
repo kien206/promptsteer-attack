@@ -1,0 +1,2 @@
+from .textfooler import TextFoolerWithCustomGoal
+from .deepwordbug import DeepWordBugWithCustomGoal

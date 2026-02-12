@@ -1,0 +1,30 @@
+{
+  "task": "cognitive-enhancement",
+  "goal_type": "deepwordbug",
+  "steering_layers": [
+    16
+  ],
+  "num_steering_layers": 1,
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-10T16:12:11.447513",
+  "splits": {
+    "test": {
+      "total": 100,
+      "successful_attacks": 36,
+      "failed_attacks": 63,
+      "skipped": 1,
+      "total_queries": 5099,
+      "attack_avg_no_steer": 0.8260951683297754,
+      "attack_avg_with_steer": 0.832972798869014,
+      "avg_attacked_improvement": 0,
+      "attack_success_rate": 0.36,
+      "avg_queries": 141.63888888888889,
+      "base_probability": {
+        "num_examples": 100,
+        "avg_prob_no_steering": 0.7328977021574974,
+        "avg_prob_with_steering": 0.7489287865161895,
+        "avg_steering_improvement": 0.01603108435869216
+      }
+    }
+  }
+}

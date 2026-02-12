@@ -1,0 +1,30 @@
+{
+  "task": "subscribes-to-Christianity",
+  "goal_type": "deepwordbug",
+  "steering_layers": [
+    16
+  ],
+  "num_steering_layers": 1,
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-11T10:23:56.967719",
+  "splits": {
+    "test": {
+      "total": 100,
+      "successful_attacks": 78,
+      "failed_attacks": 18,
+      "skipped": 4,
+      "total_queries": 3406,
+      "attack_avg_no_steer": 0.2715107195079327,
+      "attack_avg_with_steer": 0.2664488569274545,
+      "avg_attacked_improvement": -0.00506186258047819,
+      "attack_success_rate": 0.78,
+      "avg_queries": 43.666666666666664,
+      "base_probability": {
+        "num_examples": 100,
+        "avg_prob_no_steering": 0.7743668095767497,
+        "avg_prob_with_steering": 0.7680121088027954,
+        "avg_steering_improvement": -0.0063547007739543915
+      }
+    }
+  }
+}

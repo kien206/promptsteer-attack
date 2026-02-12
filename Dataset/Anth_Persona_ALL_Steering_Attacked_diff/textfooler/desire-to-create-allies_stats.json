@@ -1,0 +1,30 @@
+{
+  "task": "desire-to-create-allies",
+  "goal_type": "textfooler",
+  "steering_layers": [
+    19
+  ],
+  "num_steering_layers": 1,
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-11T03:12:49.569531",
+  "splits": {
+    "test": {
+      "total": 100,
+      "successful_attacks": 67,
+      "failed_attacks": 33,
+      "skipped": 0,
+      "total_queries": 21928,
+      "attack_avg_no_steer": 0.7710680100088939,
+      "attack_avg_with_steer": 0.7739504555799065,
+      "avg_attacked_improvement": 0.0028824455710127973,
+      "attack_success_rate": 0.67,
+      "avg_queries": 327.2835820895522,
+      "base_probability": {
+        "num_examples": 100,
+        "avg_prob_no_steering": 0.7468655094504356,
+        "avg_prob_with_steering": 0.7626331517100334,
+        "avg_steering_improvement": 0.015767642259597814
+      }
+    }
+  }
+}

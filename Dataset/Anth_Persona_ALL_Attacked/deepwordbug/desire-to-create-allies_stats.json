@@ -1,0 +1,38 @@
+{
+  "task": "desire-to-create-allies",
+  "attack": "deepwordbug",
+  "model": "/media/volume/DoubleSteeringLLM/promptsteer/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "timestamp": "2026-02-04T15:49:45.907380",
+  "splits": {
+    "train": {
+      "total": 700,
+      "successful_attacks": 700,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 21624,
+      "attack_success_rate": 1.0,
+      "avg_queries": 30.89142857142857
+    },
+    "val": {
+      "total": 200,
+      "successful_attacks": 200,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 6507,
+      "attack_success_rate": 1.0,
+      "avg_queries": 32.535
+    },
+    "test": {
+      "total": 100,
+      "successful_attacks": 100,
+      "failed_attacks": 0,
+      "skipped": 0,
+      "unchanged": 0,
+      "total_queries": 3164,
+      "attack_success_rate": 1.0,
+      "avg_queries": 31.64
+    }
+  }
+}
